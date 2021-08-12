@@ -77,18 +77,20 @@ body{
     align-items: flex-end;
     height: 100%;
     position: relative;
+    /* width: 100%; */
 }
 
 #linkBanner{
     text-align: center;
     width: 100%;
     border: none;
-    height: 40px;
+    height: 80px;
     cursor: pointer;
     z-index: 1;
     opacity: 0.8;
     position: absolute;
     bottom: 0;
+    font-size: 24px;
 }
 
 .hide{
@@ -104,8 +106,23 @@ body{
     
 }
 
+#pauseBtn{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    opacity: 0;
+    color: var(--light);
+}
+
+#pauseBtn:hover{
+    opacity: 0.6;
+
+}
+
 #recruitVid{
-    /* z-index: -1; */
+    width: 100%;
 }
 
 /* --------TESTINOMIAL--SECTION-------- */
@@ -195,4 +212,13 @@ body{
         padding: 10px 0;
     }
 
+    #vidContainer{
+        display: flex;
+        align-items: center;
+   
+    }
+
+    #recruitVid{
+        width: 100%;
+    }
 }
