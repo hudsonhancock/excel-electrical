@@ -42,12 +42,20 @@
 
 }
 
-
+#form-button {
+    width: 250px;
+    font-size: 20px;
+    padding: 10px 0;
+}
 
 
 /* --------DESKTOP--OPTIMIZATION-------- */
 
 @media screen and (min-width: 550px) {
+
+    .welcome {
+    height: 100%;
+}
 
     #hero-img {
         width: 100%;
@@ -60,9 +68,9 @@
     }
 
     #form-button {
-        width: 400px;
+        width: 250px;
         font-size: 20px;
-        padding: 30px 0;
+        padding: 10px 0;
     }
 
 }
