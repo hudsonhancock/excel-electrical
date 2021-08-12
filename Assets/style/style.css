@@ -75,6 +75,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    flex-direction: column;
     height: 100%;
     position: relative;
     /* width: 100%; */
@@ -84,13 +85,15 @@ body{
     text-align: center;
     width: 100%;
     border: none;
-    height: 80px;
+    height: 40px;
     cursor: pointer;
     z-index: 1;
     opacity: 0.8;
     position: absolute;
     bottom: 0;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .hide{
@@ -99,18 +102,18 @@ body{
 
 #playBtn{
     position: absolute;
-    top: 50%;
+    right: 50%;
+    transform: translateX(20px);
     font-size: 40px;
-    transform: translateY(-20px);
     color: var(--light);
     
 }
 
 #pauseBtn{
     position: absolute;
-    text-align: center;
-    width: 100%;
-    height: 100%;
+    transform: translateX(20px);
+    width:100%;
+    height:100%;
     font-size: 40px;
     opacity: 0;
     color: var(--light);
@@ -123,6 +126,10 @@ body{
 
 #recruitVid{
     width: 100%;
+}
+
+#form{
+    text-align: center;
 }
 
 /* --------TESTINOMIAL--SECTION-------- */
@@ -219,6 +226,21 @@ body{
     }
 
     #recruitVid{
+        width: 80%;
+    }
+
+    #linkBanner{
+        height: 80px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 24px;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    #formSection{
         width: 100%;
     }
 }
