@@ -3,6 +3,13 @@
     --font: 'Roboto', sans-serif;
 }
 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6
+
 .welcome {
     height: 812px;
 }
@@ -27,7 +34,6 @@
 
 #hero-text {
     color: var(--light);
-    font-family: var(--font);
     font-weight: 500;
     font-size: 40px;
     text-align: center;
@@ -47,6 +53,30 @@
     font-size: 20px;
     padding: 10px 0;
 }
+/* --------FEATURES--SECTION-------- */
+#featuresSection{
+    height: 100%;
+}
+
+/* --------VIDEO--SECTION-------- */
+#vidContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#linkBanner{
+    text-align: center;
+    width: 100%;
+    border: none;
+    height: 80px;
+    cursor: pointer;
+}
+
+#recruitVid{
+    z-index: -1;
+}
+
 
 
 /* --------DESKTOP--OPTIMIZATION-------- */
