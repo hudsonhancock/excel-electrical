@@ -7,22 +7,31 @@ const vidOne = document.querySelector("#matt");
 const vidTwo = document.querySelector("#adam");
 const vidThree = document.querySelector("#ivory");
 const exitBtn = document.querySelector("#exit");
+const mainVid = document.querySelector("#recruitVid");
 
 console.log;
 
 btnOne.addEventListener("click", () => {
   lightbox.style.display = "block";
   vidOne.style.display = "block";
+  vidOne.play();
+  mainVid.pause();
 });
 
 btnTwo.addEventListener("click", () => {
   lightbox.style.display = "block";
   vidTwo.style.display = "block";
+  vidTwo.play();
+
+  mainVid.pause();
 });
 
 btnThree.addEventListener("click", () => {
   lightbox.style.display = "block";
   vidThree.style.display = "block";
+  vidThree.play();
+
+  mainVid.pause();
 });
 
 exitBtn.addEventListener("click", () => {
