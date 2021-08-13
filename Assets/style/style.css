@@ -195,6 +195,44 @@ body{
     font-weight: 500
 }
 
+.popup-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.lightbox{
+    width: 95%;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#exit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#adam{
+    display: none;
+}
+
+#ivory{
+    display: none;
+}
+#matt{
+    display: none;
+}
 /* --------DESKTOP--OPTIMIZATION-------- */
 
 @media screen and (min-width: 550px) {
@@ -243,4 +281,12 @@ body{
     #formSection{
         width: 100%;
     }
+
+
+
+    .lightbox{
+        width: 750px;
+    }
+
+
 }

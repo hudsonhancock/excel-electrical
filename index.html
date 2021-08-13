@@ -146,10 +146,11 @@
                 <video class="" id="recruitVid" src="./Assets/videos/headervideo.mp4"></video>
                 <i class="fas fa-play" id="playBtn"></i>
                 <i class="fas fa-pause hide" id="pauseBtn"></i>
-                <button class="btn-primary hide" id="linkBanner" href="https://forms.gle/vL6WpoMegZBVWtur7">Fill Out Potential Applicant Form</button>
+                <button class="btn-primary hide" id="linkBanner" href="https://forms.gle/vL6WpoMegZBVWtur7">Fill Out
+                    Potential Applicant Form</button>
             </div>
         </section>
-        
+
 
         <section id="formSection" class="form hide mt-5">
             <iframe id="form"
@@ -167,7 +168,7 @@
                         <div class="d-flex align-items-start flex-column">
                             <h4 class="ml-3 cardName">Matt</h4>
                             <h4 class="ml-3 cardJob">Excel Electrician</h4>
-                            <button class="ml-3 btn-primary w-100 cardBtn">Watch Video</button>
+                            <button id="btnOne" class="ml-3 btn-primary w-100 cardBtn">Watch Video</button>
                         </div>
                     </div>
                     <div class="col-lg card d-flex flex-row p-2 align-items-center mt-3">
@@ -177,7 +178,7 @@
                         <div class="d-flex align-items-start flex-column">
                             <h4 class="ml-3 cardName">Sean</h4>
                             <h4 class="ml-3 cardJob">Excel Electrician</h4>
-                            <button class="ml-3 btn-primary w-100 cardBtn">Watch Video</button>
+                            <button id="btnTwo" class="ml-3 btn-primary w-100 cardBtn">Watch Video</button>
                         </div>
                     </div>
                     <div class="col-lg card d-flex flex-row p-2 align-items-center mt-3">
@@ -187,13 +188,21 @@
                         <div class="d-flex align-items-start flex-column">
                             <h4 class="ml-3 cardName">Ivory</h4>
                             <h4 class="ml-3 cardJob">Excel Electrician</h4>
-                            <button class="ml-3 btn-primary w-100 cardBtn">Watch Video</button>
+                            <button id="btnThree" class="ml-3 btn-primary w-100 cardBtn">Watch Video</button>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
+
+        <!-- LIGHTBOX -->
+        <div class="popup-video">
+            <i id="exit" class="fas fa-times"></i>
+            <video id="matt"  controls class="lightbox" src="./Assets/videos/Matt.mp4"></video>
+            <video id="adam" controls class="lightbox" src="./Assets/videos/Adam.mp4"></video>
+            <video id="ivory" controls class="lightbox" src="./Assets/videos/ivory.mp4"></video>
+        </div>
 
 
 
@@ -211,6 +220,7 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
         </script>
         <script src="./Assets/script/script.js"></script>
+        <script src="./Assets/script/lightbox.js"></script>
     </main>
 </body>
 
