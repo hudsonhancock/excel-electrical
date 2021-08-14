@@ -233,6 +233,21 @@ body{
 #matt{
     display: none;
 }
+.welcome {
+    margin-top: 70px;
+    position: relative;
+}
+#fixed-nav {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+#fixed-nav img {
+	width: 100px;
+    height: auto;
+}
 /* --------DESKTOP--OPTIMIZATION-------- */
 
 @media screen and (min-width: 550px) {
