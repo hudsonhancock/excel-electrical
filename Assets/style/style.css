@@ -305,3 +305,10 @@ body{
 
 
 }
+@media (max-width: 992px){
+    #navbarSupportedContent{
+        width: 100%;
+        background-color: #323A40;
+        padding: 1rem;
+    }
+}
