@@ -181,7 +181,8 @@ nav{
 /* --------TESTIMONIAL--SECTION-------- */
 
 .testimonials{
-    height: 812px;
+padding: 3rem 0;
+background-color: whitesmoke;
 }
 
 .card-img{
@@ -322,10 +323,13 @@ nav{
     #vidContainer{
         display: flex;
         align-items: center;
+        justify-content: center;
+        margin-top: 0;
     }
 
     #recruitVid{
         width: 80%;
+        height: 100%;
     }
 
     #linkBanner{
