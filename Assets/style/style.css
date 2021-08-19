@@ -30,7 +30,26 @@ body{
     width: 100%;
 }
 
+/* --------NAV--SECTION-------- */
 
+
+
+/* --------HERO--SECTION-------- */
+
+.welcome {
+    margin-top: 104px;
+    position: relative;
+}
+#fixed-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+#fixed-nav img {
+	width: 180px;
+    height: auto;
+}
 
 #hero-img {
     background-image: url('../images/headershaine.jpg');
@@ -149,7 +168,7 @@ body{
     text-align: center;
 }
 
-/* --------TESTINOMIAL--SECTION-------- */
+/* --------TESTIMONIAL--SECTION-------- */
 
 .testimonials{
     height: 812px;
@@ -250,21 +269,7 @@ body{
 #matt{
     display: none;
 }
-.welcome {
-    margin-top: 70px;
-    position: relative;
-}
-#fixed-nav {
-    height: 70px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 3;
-}
-#fixed-nav img {
-	width: 100px;
-    height: auto;
-}
+
 /* --------DESKTOP--OPTIMIZATION-------- */
 
 @media screen and (min-width: 550px) {
