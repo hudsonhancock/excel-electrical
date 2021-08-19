@@ -27,6 +27,7 @@ button {
 
 body{
     background-color: var(--darker);
+    width: 100%;
 }
 
 /* --------NAV--SECTION-------- */
