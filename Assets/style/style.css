@@ -65,11 +65,28 @@ body{
     font-size: 20px;
     padding: 10px 0;
 }
+/* --------INTRO--SECTION-------- */
+
+#intro-section{
+}
+
 /* --------FEATURES--SECTION-------- */
+
+
 #featuresSection{
     height: 100%;
 }
 
+/* --------TESTIMONIALS--SECTION-------- */
+
+.swiper-container {
+    width: 100%;
+    height: 800px;
+  }
+
+  .swiper-slide{
+      background-color: white;
+  }
 /* --------VIDEO--SECTION-------- */
 #vidContainer{
     display: flex;
