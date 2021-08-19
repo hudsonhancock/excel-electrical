@@ -171,9 +171,7 @@ nav{
 }
 
 #formSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #form{
@@ -309,7 +307,6 @@ nav{
     #vidContainer{
         display: flex;
         align-items: center;
-
     }
 
     #recruitVid{
@@ -325,14 +322,15 @@ nav{
     }
     
     #form{
-        width: 80%;
+        width: 650px;
+    }
+
+    .video{
+        position: relative;
     }
 
     #formSection{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
 
 
