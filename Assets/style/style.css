@@ -192,7 +192,7 @@ background-color: whitesmoke;
     margin-right: 3rem;
 }
 
-.card {
+#card {
     width: 100%;
     height: 175px; 
     border: none;
@@ -299,7 +299,7 @@ background-color: whitesmoke;
         background-position-y: center;
     }
 
-    .card{
+    #card{
         height: 300px;
         display: flex;
         justify-content: center;
