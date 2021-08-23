@@ -23,5 +23,8 @@
 
 main{
     margin-top: 105px;
-    padding: 3rem;
+    /* padding: 3rem; */
+}
+
+@media screen and (min-width: 550px) {
 }
